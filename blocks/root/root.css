@@ -1,0 +1,8 @@
+html {
+    font-size: calc(10 * 100vw / 1280);
+    background-color: #272722;
+}
+
+.places__website {
+    width: 45.6rem;
+}

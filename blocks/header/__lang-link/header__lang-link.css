@@ -1,0 +1,12 @@
+.header__lang-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 1.17;
+    color: white;
+}
+
+.header__lang-link:first-child {
+    margin-right: 1.8rem;
+}

@@ -1,0 +1,5 @@
+.places__card {
+    min-height: 66rem;
+    display: flex;
+    align-items: start;
+}

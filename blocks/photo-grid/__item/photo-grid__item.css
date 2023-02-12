@@ -1,0 +1,6 @@
+.photo-grid__item {
+    width: 28.4rem;
+    height: 21.3rem;
+    background-color: #fff;
+    gap: 1.6rem;
+}
