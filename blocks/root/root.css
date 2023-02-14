@@ -5,6 +5,7 @@ html {
 
 .places__website {
     width: 45.6rem;
+    grid-area: link;
 }
 
 @media  screen and (max-width: 1024px) {

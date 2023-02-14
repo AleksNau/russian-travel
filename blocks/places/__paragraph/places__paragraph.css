@@ -6,4 +6,13 @@
     font-size: 1.8rem;
     line-height: 163%;
     color: #FFFFFF;
+    grid-area: parag2;
+}
+
+.first {
+    grid-area: parag1;
+}
+
+.second {
+    grid-area: parag2;
 }

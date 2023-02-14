@@ -2,4 +2,5 @@
     width: 46rem;
     height: 46rem;
     background-color: #fff;
+    grid-area: image;
 }
