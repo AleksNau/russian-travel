@@ -1,7 +1,16 @@
 .intro {
     box-sizing: border-box;
     padding: 9.2rem 0 0 0;
-    width: 69rem;
-    min-height: 42.9rem;
+    max-width: 984px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media  screen and (max-width: 1024px) {
+    .intro {
+        max-width: 928px;
+        height: auto;
+        margin: 0 auto;
+    }
 }
