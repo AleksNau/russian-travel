@@ -6,3 +6,21 @@ html {
 .places__website {
     width: 45.6rem;
 }
+
+@media  screen and (max-width: 1024px) {
+    html {
+        font-size: calc(10 * 100vw / 1024);
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    html {
+        font-size: calc(10 * 100vw / 768);
+    }
+}
+
+@media  screen and (max-width: 320px) {
+    html {
+        font-size: calc(10 * 100vw / 320);
+    }
+}

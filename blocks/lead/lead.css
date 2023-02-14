@@ -4,3 +4,11 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
+
+@media  screen and (max-width: 1024px) {
+    .lead {
+        width: 92.8rem;
+        height: auto;
+        margin: 0 auto;
+    }
+}
