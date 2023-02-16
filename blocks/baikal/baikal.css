@@ -1,7 +1,9 @@
 .baikal {
     width: 118.4rem;
     height: 74rem;
-    background-color: #000;
     padding-top: 9.2rem;
     margin: 0 auto;
+    background-image:
+        linear-gradient(to top, rgba(42,44,47,.3), rgba(42,44,47,.3)),
+        url("./images/dobaykala1184.jpg") ;
 }
