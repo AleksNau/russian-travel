@@ -1,11 +1,11 @@
 .baikal__title {
-    margin: 24.5rem auto 3.2rem auto;
-    width: 56rem;
-    height: 15.2rem;
+    margin: 0 auto;
+    max-width: 560px;
+    height: auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    font-size: 7.2rem;
+    font-size: 72px;
     line-height: 1.06;
     text-align: center;
     color: #FFFFFF;

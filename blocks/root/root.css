@@ -4,7 +4,7 @@ html {
 }
 
 .places__website {
-    width: 45.6rem;
+    max-width: 456px;
     grid-area: link;
 }
 

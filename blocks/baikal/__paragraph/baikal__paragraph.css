@@ -1,10 +1,10 @@
 .baikal__paragraph {
-    width: 36rem;
-    height: 6.6rem;
+    max-width: 360px;
+    height: auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 18px;
     line-height: 1.22;
     text-align: center;
     color: #FFFFFF;

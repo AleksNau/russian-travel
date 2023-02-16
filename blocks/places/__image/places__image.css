@@ -1,6 +1,6 @@
 .places__image {
-    width: 46rem;
-    height: 46rem;
+    max-width: 460px;
+    height: auto;
     background-color: #fff;
     grid-area: image;
     margin-right: 40px;

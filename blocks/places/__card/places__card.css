@@ -1,5 +1,5 @@
 .places__card {
-    min-height: 66rem;
+    min-height: 660px;
     display: grid;
     grid-template-areas:
     "name ."
