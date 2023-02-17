@@ -1,11 +1,16 @@
 .baikal {
     box-sizing: border-box;
-    max-width: 1184px;
-    height: 740px;
+    max-width: 118.4rem;
+    min-height: 74rem;
     margin: 0 auto;
     background-image:
         linear-gradient(to top, rgba(42,44,47,.3), rgba(42,44,47,.3)),
         url("./images/dobaykala1184.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
