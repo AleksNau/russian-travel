@@ -1,7 +1,7 @@
 .baikal {
     box-sizing: border-box;
     max-width: 118.4rem;
-    min-height: 74rem;
+    height: 74rem;
     margin: 0 auto;
     background-image:
         linear-gradient(to top, rgba(42,44,47,.3), rgba(42,44,47,.3)),
