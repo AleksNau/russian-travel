@@ -4,6 +4,6 @@
     grid-template-areas:
     "name ."
     "name link"
-    "image parag1 "
-    "image parag2 ";
+    "image text "
+    "image text ";
 }
