@@ -13,6 +13,18 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: opacity 0.7s linear;
+}
+
+.baikal__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.baikal:hover {
+    background-image:
+            linear-gradient(to top, rgba(42,44,47,.8), rgba(42,44,47,.8)),
+            url("./images/dobaykala1184.jpg") ;
 }
 
 
