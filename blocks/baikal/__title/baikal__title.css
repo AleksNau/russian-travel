@@ -9,5 +9,11 @@
     line-height: 1.06;
     text-align: center;
     color: #FFFFFF;
+}
 
+@media  screen and (max-width: 768px) {
+    .baikal__title {
+        font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(35px + (76 - 35) * ((100vw - 320px) / (768 - 320)));
+    }
 }

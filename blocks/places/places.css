@@ -12,3 +12,24 @@
     gap: 26px;
     grid-area: text;
 }
+
+@media  screen and (max-width: 1024px) {
+    .places {
+        max-width:calc(288px + (928 - 288) * ((100vw - 320px) / (1024 - 320)));
+
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .places {
+        max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
+
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .places {
+        max-width: 100%;
+
+    }
+}

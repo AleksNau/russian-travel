@@ -6,4 +6,43 @@
     "image text "
     "image text ";
     grid-template-rows: min-content  min-content  min-content min-content;
+    grid-column-gap: calc(32px + (40 - 32) * ((100vw - 320px) / (1280 - 320)));
+}
+
+.places__card:not(:first-child){
+    padding-top: 80px;
+}
+
+.places__card:last-child {
+    padding-bottom: 92px;
+}
+
+@media  screen and (max-width: 1024px) {
+    .places__card {
+        grid-column-gap: calc(28px + (32 - 28) * ((100vw - 320px) / (1024 - 320)));
+    }
+    .places__card:not(:first-child){
+        padding-top: calc(73px + (80 - 73) * ((100vw - 320px) / (1024 - 320)));
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .places__card:not(:first-child){
+        padding-top: calc(50px + (73 - 50) * ((100vw - 320px) / (768 - 320)));
+    }
+
+    .places__card:last-child {
+        padding-bottom: calc(65px + (89 - 65) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .places__card {
+        grid-template-areas:
+    "name "
+    "link"
+    "image"
+    "text ";
+        grid-row-gap: 32px;
+    }
 }

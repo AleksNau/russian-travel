@@ -7,10 +7,23 @@
     flex-direction: column;
 }
 
+
 @media  screen and (max-width: 1024px) {
     .intro {
-        max-width: 928px;
-        height: auto;
-        margin: 0 auto;
+        max-width:calc(288px + (928 - 288) * ((100vw - 320px) / (1024 - 320)));
+
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .intro {
+        max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
+
+    }
+}
+
+@media  screen and (max-width: 320px) {
+    .intro {
+        max-width: 288px;
     }
 }
