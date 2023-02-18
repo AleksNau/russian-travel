@@ -6,13 +6,12 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    grid-area: parag2;
 }
 
-.first {
-    grid-area: parag1;
-}
-
-.second {
-    grid-area: parag2;
+@media  screen and (max-width: 720px) {
+    .places__paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+    }
 }

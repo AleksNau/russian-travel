@@ -2,3 +2,9 @@
     display: flex;
     gap: 18px;
 }
+
+@media  screen and (max-width: 320px) {
+    .links {
+        flex-direction: column;
+    }
+}

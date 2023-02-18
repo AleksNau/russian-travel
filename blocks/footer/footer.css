@@ -6,3 +6,21 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media  screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
+@media  screen and (max-width: 720px) {
+    .footer {
+        max-width: 720px;
+    }
+}
+
+@media  screen and (max-width: 320px) {
+    .footer {
+        max-width: 310px;
+    }
+}
