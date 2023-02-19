@@ -8,6 +8,7 @@
     color: #FFFFFF;
     max-width: 640px;
     margin: 0 auto 64px auto;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 

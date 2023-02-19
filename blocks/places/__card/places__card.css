@@ -1,10 +1,12 @@
 .places__card {
+    display: -ms-grid;
     display: grid;
     grid-template-areas:
     "name ."
     "name link"
     "image text "
     "image text ";
+    -ms-grid-rows: min-content  min-content  min-content min-content;
     grid-template-rows: min-content  min-content  min-content min-content;
     grid-column-gap: calc(32px + (40 - 32) * ((100vw - 320px) / (1280 - 320)));
 }

@@ -1,4 +1,5 @@
 .photo-grid {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding-top: 92px;
     max-width: calc(288px + (1184 - 288) * ((100vw - 320px) / (1280 - 320)));

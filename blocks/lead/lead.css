@@ -2,13 +2,12 @@
     max-width: 984px;
     height: auto;
     margin: 0 auto;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 @media  screen and (max-width: 768px) {
     .lead {
-
-
         margin: 0;
     }
 }

@@ -1,10 +1,15 @@
 .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 18px;
 }
 
 @media  screen and (max-width: 562px) {
     .links {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         gap: 32px 48px;
     }

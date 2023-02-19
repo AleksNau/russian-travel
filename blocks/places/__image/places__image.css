@@ -22,6 +22,7 @@
 
 @media  screen and (max-width: 600px) {
     .places__conteiner-image {
+        -ms-grid-column-align: center;
         justify-self: center;
     }
 }
