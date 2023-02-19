@@ -2,21 +2,3 @@ html {
     font-size: calc(10 * 100vw / 1280);
     background-color: #2A2C2F;
 }
-
-@media  screen and (max-width: 1024px) {
-    html {
-        font-size: calc(10 * 100vw / 1024);
-    }
-}
-
-@media  screen and (max-width: 768px) {
-    html {
-        font-size: calc(10 * 100vw / 768);
-    }
-}
-
-@media  screen and (max-width: 320px) {
-    html {
-        font-size: calc(10 * 100vw / 320);
-    }
-}
