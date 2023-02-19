@@ -9,6 +9,7 @@
     -ms-grid-rows: min-content  min-content  min-content min-content;
     grid-template-rows: min-content  min-content  min-content min-content;
     grid-column-gap: calc(32px + (40 - 32) * ((100vw - 320px) / (1280 - 320)));
+    grid-template-columns: fit-content(460px) 1fr;
 }
 
 .places__card:not(:first-child){

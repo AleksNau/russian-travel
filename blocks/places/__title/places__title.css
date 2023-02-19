@@ -9,7 +9,6 @@
     grid-area: name;
     -ms-grid-row-align:center;
     align-self:center;
-    white-space: pre-line;
 }
 @media  screen and (max-width: 1024px) {
     .places__title {

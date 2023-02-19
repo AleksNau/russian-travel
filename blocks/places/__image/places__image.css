@@ -4,10 +4,6 @@
     background-color: #fff;
 }
 
-.places__conteiner-image {
-    grid-area: image;
-}
-
 @media  screen and (max-width: 1024px) {
     .places__image {
         width: calc(340px + (440 - 340) * ((100vw - 320px) / (1024 - 320)));
@@ -20,9 +16,3 @@
     }
 }
 
-@media  screen and (max-width: 600px) {
-    .places__conteiner-image {
-        -ms-grid-column-align: center;
-        justify-self: center;
-    }
-}
