@@ -2,30 +2,3 @@
     width: 100%;
     height: auto;
 }
-
-.lead__route-conteiner {
-    position: relative;
-}
-
-.lead__route {
-    position: absolute;
-    width: calc(305px + (937 - 305) * ((100vw - 320px) / (1280 - 320)));
-    max-width: 100%;
-    top:36.5%;
-    left:50%;
-    transform:translate(-50%, -50%);
-}
-
-@media  screen and (max-width: 1024px) {
-    .lead__route {
-        width: calc(305px + (884 - 305) * ((100vw - 320px) / (1024 - 320)));
-        top:35.8%;
-    }
-}
-
-@media  screen and (max-width: 768px) {
-    .lead__route {
-        width: calc(305px + (732 - 305) * ((100vw - 320px) / (768 - 320)));
-        top:35.8%;
-    }
-}

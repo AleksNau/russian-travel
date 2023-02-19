@@ -21,6 +21,7 @@
     .places__card {
         grid-column-gap: calc(28px + (32 - 28) * ((100vw - 320px) / (1024 - 320)));
     }
+
     .places__card:not(:first-child){
         padding-top: calc(73px + (80 - 73) * ((100vw - 320px) / (1024 - 320)));
     }

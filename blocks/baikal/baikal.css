@@ -14,11 +14,7 @@
     align-items: center;
     flex-direction: column;
     transition: opacity 0.7s linear;
-}
-
-.baikal__link {
-    text-decoration: none;
-    color: #ffffff;
+    max-height: 740px;
 }
 
 .baikal:hover {
@@ -26,7 +22,6 @@
             linear-gradient(to top, rgba(42,44,47,.8), rgba(42,44,47,.8)),
             url("./images/dobaykala1184.jpg") ;
 }
-
 
 @media  screen and (max-width: 1024px) {
     .baikal {

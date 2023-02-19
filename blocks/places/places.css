@@ -2,34 +2,26 @@
     box-sizing: border-box;
     max-width: 984px;
     margin: 0 auto;
-    padding-top: 9.2rem;
+    padding-top: 92px;
     display: block;
-}
-
-.places__text {
-    display: flex;
-    flex-direction: column;
-    gap: 26px;
-    grid-area: text;
 }
 
 @media  screen and (max-width: 1024px) {
     .places {
         max-width:calc(288px + (928 - 288) * ((100vw - 320px) / (1024 - 320)));
-
+        padding-top: calc(76px + (92 - 76) * ((100vw - 320px) / (1024 - 320)));
     }
 }
 
 @media  screen and (max-width: 768px) {
     .places {
         max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
-
+        padding-top: calc(65px + (76 - 65) * ((100vw - 320px) / (768 - 320)));
     }
 }
 
 @media  screen and (max-width: 600px) {
     .places {
         max-width: 100%;
-
     }
 }

@@ -1,4 +1,16 @@
 .content {
-    padding-top: 5.6rem;
+    padding-top: 56px;
     background-color: #2A2C2F;
+}
+
+@media  screen and (max-width: 1024px) {
+    .content {
+        padding-top: 48px;
+    }
+}
+
+@media  screen and (max-width: 320px) {
+    .content {
+        padding-top: 56px;
+    }
 }

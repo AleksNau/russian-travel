@@ -1,6 +1,6 @@
 .intro {
     box-sizing: border-box;
-    padding: 9.2rem 0 0 0;
+    padding: 92px 0 0 0;
     max-width: 984px;
     margin: 0 auto;
     display: flex;
@@ -11,14 +11,13 @@
 @media  screen and (max-width: 1024px) {
     .intro {
         max-width:calc(288px + (928 - 288) * ((100vw - 320px) / (1024 - 320)));
-
     }
 }
 
 @media  screen and (max-width: 768px) {
     .intro {
         max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
-
+        padding: calc(56px + (88 - 56) * ((100vw - 320px) / (768 - 320))) 0 0 0;
     }
 }
 

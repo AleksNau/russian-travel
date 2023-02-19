@@ -3,17 +3,6 @@ html {
     background-color: #2A2C2F;
 }
 
-.places__website {
-    grid-area: link;
-}
-
-@media  screen and (max-width: 600px) {
-    .places__website {
-        width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
-        margin: 0 auto;
-    }
-}
-
 @media  screen and (max-width: 1024px) {
     html {
         font-size: calc(10 * 100vw / 1024);
