@@ -1,4 +1,4 @@
-.baikal {
+.cover {/*
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     max-width: 1184px;
@@ -35,7 +35,7 @@
     max-height: 740px;
 }
 
-.baikal:hover {
+.cover:hover {
     background-image:
             -webkit-gradient(linear, left bottom, left top, from(rgba(42,44,47,.8)), to(rgba(42,44,47,.8))),
             url("./images/dobaykala1184.jpg");
@@ -48,13 +48,20 @@
 }
 
 @media  screen and (max-width: 1024px) {
-    .baikal {
+    .cover {
         min-height: calc(200px + (640 - 200) * ((100vw - 320px) / (1024 - 320)));
     }
 }
 
 @media  screen and (max-width: 768px) {
-    .baikal {
+    .cover {
         min-height: calc(200px + (480 - 200) * ((100vw - 320px) / (768 - 320)));
-    }
+    }*/
+}
+
+.cover__conteiner {
+    max-width: 1184px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
 }

@@ -1,4 +1,4 @@
-.baikal__paragraph {
+.cover__paragraph {
     max-width: 360px;
     height: auto;
     font-family: 'Inter', Arial, sans-serif;
@@ -13,7 +13,7 @@
 
 
 @media  screen and (max-width: 600px) {
-    .baikal__paragraph {
+    .cover__paragraph {
         font-size: 14px;
         line-height: 1.14;
     }
