@@ -9,7 +9,7 @@
     -ms-grid-rows: min-content  min-content  min-content min-content;
     grid-template-rows: min-content  min-content  min-content min-content;
     grid-column-gap: calc(32px + (40 - 32) * ((100vw - 320px) / (1280 - 320)));
-    grid-template-columns: fit-content(460px) 1fr;
+    grid-template-columns:  minmax(min-content, 460px)  minmax(min-content, max-content);
 }
 
 .places__card:not(:first-child){
@@ -23,6 +23,7 @@
 @media  screen and (max-width: 1024px) {
     .places__card {
         grid-column-gap: calc(28px + (32 - 28) * ((100vw - 320px) / (1024 - 320)));
+        grid-template-columns:  minmax(min-content, 440px)  minmax(min-content, max-content);
     }
 
     .places__card:not(:first-child){
@@ -31,6 +32,10 @@
 }
 
 @media  screen and (max-width: 768px) {
+    .places__card {
+        grid-template-columns:  minmax(min-content, 340px)  minmax(min-content, max-content);
+    }
+
     .places__card:not(:first-child){
         padding-top: calc(50px + (73 - 50) * ((100vw - 320px) / (768 - 320)));
     }
@@ -42,11 +47,16 @@
 
 @media  screen and (max-width: 600px) {
     .places__card {
+
+        justify-content: center;
         grid-template-areas:
     "name "
     "link"
     "image"
     "text ";
         grid-row-gap: 32px;
+        grid-template-columns:  minmax(min-content, 340px);
     }
 }
+
+
