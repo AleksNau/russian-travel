@@ -1,5 +1,5 @@
 .lead__title {
-    margin: 0 auto 3.2rem auto;
+    margin: 0 auto 32px auto;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -12,10 +12,10 @@
     box-sizing: border-box;
 }
 
-
 @media  screen and (max-width: 768px) {
     .lead__title {
         font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
+        margin: 0 auto calc(16px + (32 - 16) * ((100vw - 320px) / (768 - 320))) auto;
     }
 }
 
