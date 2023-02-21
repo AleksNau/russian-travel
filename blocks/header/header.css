@@ -9,7 +9,7 @@
     justify-content: space-between;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: self-end;
 }
 
 @media  screen and (max-width: 1024px) {
