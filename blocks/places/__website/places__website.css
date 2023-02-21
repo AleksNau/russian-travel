@@ -3,13 +3,13 @@
     margin: 0 0 48px 0;
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .places__website {
         margin: 0 0 calc(32px + (48 - 32) * ((100vw - 320px) / (768 - 320))) 0;
     }
 }
 
-@media  screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .places__website {
         width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
         margin: 0 auto;

@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .page {
         padding-top: calc(16px + (28 - 16) * ((100vw - 320px) / (768 - 320)));
     }

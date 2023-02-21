@@ -6,20 +6,20 @@
     margin: 0 auto;
 }
 
-@media  screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .photo-grid {
-        max-width:calc(288px + (928 - 288) * ((100vw - 320px) / (1024 - 320)));
+        max-width: calc(288px + (928 - 288) * ((100vw - 320px) / (1024 - 320)));
     }
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .photo-grid {
         max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
         padding-top: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
     }
 }
 
-@media  screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .photo-grid {
         max-width: 288px;
     }

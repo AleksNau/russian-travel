@@ -7,28 +7,30 @@
     line-height: 1.06;
     color: #FFFFFF;
     grid-area: name;
-    -ms-grid-row-align:center;
-    align-self:center;
+    -ms-grid-row-align: center;
+    align-self: center;
     max-width: 460px;
 }
-@media  screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1024px) {
     .places__title {
         font-size: calc(42px + (72 - 42) * ((100vw - 320px) / (1024 - 320)));
         line-height: 1.1;
     }
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .places__title {
         font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
         line-height: 1.09;
     }
+
     .places__title_short {
         max-width: 330px;
     }
 }
 
-@media  screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .places__title {
         width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
         margin: 0 auto;

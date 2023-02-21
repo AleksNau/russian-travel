@@ -4,19 +4,19 @@
     border: none;
 }
 
-@media  screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .photo-grid__item {
         max-width: 300px;
     }
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .photo-grid__item {
         max-width: 352px;
     }
 }
 
-@media  screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .photo-grid__item {
         max-width: 288px;
     }

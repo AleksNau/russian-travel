@@ -12,14 +12,14 @@
     box-sizing: border-box;
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .lead__title {
         font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
         margin: 0 auto calc(16px + (32 - 16) * ((100vw - 320px) / (768 - 320))) auto;
     }
 }
 
-@media  screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .lead__title {
         line-height: 1.1;
     }

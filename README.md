@@ -1,4 +1,3 @@
-
 # Проект: Путешествие по России
 
 Учебный проект о путешествии по России. 3-й спринт от Яндекс практикума
@@ -13,8 +12,6 @@ https://aleksnau.github.io/russian-travel/
 | Example Color | ![#3E403A](https://via.placeholder.com/10/3E403A?text=+) #3E403A |
 | Example Color | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
 
-
-
 ## Features
 
 - Flexbox
@@ -22,12 +19,9 @@ https://aleksnau.github.io/russian-travel/
 - Адаптив
 - Кросбраузерность
 
-
 ## Optimizations
 
-Оптимизированы изображения через Photoshop
-Добавлены префиксы через Autoprefixer
-
+Оптимизированы изображения через Photoshop Добавлены префиксы через Autoprefixer
 
 ## Lessons Learned
 
@@ -36,15 +30,11 @@ https://aleksnau.github.io/russian-travel/
 - Узнал больше о Git
 - Как адаптировать изображения через Photoshop
 
-
-
 ## Related
-
 
 [Autoprefixer](https://github.com/autoprefixer/autoprefixer.github.io)
 
 [README.SO](https://github.com/matiassingers/awesome-readme)
-
 
 ## Figma
 
