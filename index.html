@@ -10,9 +10,9 @@
 <div class="page">
     <header class="header">
         <img src="images/__logo.svg" alt="логотип сайта с картой России" class="header__logo">
-        <div>
-            <a href="#ru" class="header__lang-link header__lang-link_active">Ru</a>
-            <a href="#eng" class="header__lang-link">En</a>
+        <div class="header__language-selector">
+            <li><a href="#ru" class="header__lang-link header__lang-link_active">Ru</a></li>
+            <li><a href="#eng" class="header__lang-link">En</a></li>
         </div>
     </header>
     <main class="content">
@@ -43,11 +43,11 @@
                 некоторые интересные места,
                 достойные вашего отпуска.</p>
             <ul class="intro__list">
-                <li class="intro__item">Часовых поясов 11</li>
-                <li class="intro__item">Объектов природного наследия ЮНЕСКО 12</li>
-                <li class="intro__item">Объектов культурного наследия ЮНЕСКО 16</li>
-                <li class="intro__item">Природных заповедников 105</li>
-                <li class="intro__item">Аэропортов 241</li>
+                <li class="intro__item">Часовых поясов <span class="intro__numbers">11</span></li>
+                <li class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__numbers">12</span></li>
+                <li class="intro__item">Объектов культурного наследия ЮНЕСКО <span class="intro__numbers">16</span></li>
+                <li class="intro__item">Природных заповедников <span class="intro__numbers">105</span></li>
+                <li class="intro__item">Аэропортов <span class="intro__numbers">241</span></li>
             </ul>
         </section>
         <section class="photo-grid">
@@ -199,7 +199,7 @@
                     <img src="./blocks/places/__image/images/kosa460.jpg" alt="Куршская коса" class="places__image">
                 </picture>
                 <div class="places__website">
-                    <h3 class="places__subtitle">URL</h3>
+                    <p class="places__subtitle">URL</p>
                     <a href="http://park-kosa.ru" class="places__link" target="_blank">park-kosa.ru</a>
                 </div>
                 <div class="places__text">
@@ -225,7 +225,7 @@
                          class="places__image">
                 </picture>
                 <div class="places__website">
-                    <h3 class="places__subtitle">URL</h3>
+                    <p class="places__subtitle">URL</p>
                     <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__link"
                        target="_blank">National Geographic</a>
                 </div>
@@ -251,7 +251,7 @@
                     <img src="./blocks/places/__image/images/altai460.jpg" alt="Алтай" class="places__image">
                 </picture>
                 <div class="places__website">
-                    <h3 class="places__subtitle">URL</h3>
+                    <p class="places__subtitle">URL</p>
                     <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="places__link"
                        target="_blank">YouTube</a>
                 </div>
@@ -277,7 +277,7 @@
                          class="places__image">
                 </picture>
                 <div class="places__website">
-                    <h3 class="places__subtitle">URL</h3>
+                    <p class="places__subtitle">URL</p>
                     <a href="https://vk.com/baikalmile" class="places__link"
                        target="_blank">https://vk.com/baikalmile</a>
                 </div>
@@ -303,7 +303,7 @@
                          class="places__image">
                 </picture>
                 <div class="places__website">
-                    <h3 class="places__subtitle">URL</h3>
+                    <p class="places__subtitle">URL</p>
                     <a href="http://vodlozero.ru" class="places__link" target="_blank">http://vodlozero.ru/</a>
                 </div>
                 <div class="places__text"><p class="places__paragraph">Сибирь заканчивается не на Урале, а в Карелии:
