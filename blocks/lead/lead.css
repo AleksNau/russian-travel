@@ -5,15 +5,16 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
-    .lead {
-        margin: 0;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     .lead {
         max-width: 928px;
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .lead {
+        margin: 0;
+    }
+}
+

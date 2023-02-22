@@ -23,9 +23,6 @@
     .places__title {
         font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
         line-height: 1.09;
-    }
-
-    .places__title_short {
         max-width: 330px;
     }
 }
